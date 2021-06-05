@@ -6,7 +6,7 @@ jobs:
     name: Unit Testing
     runs-on: ubunts-latest
     steps:
-    - use: actions/checkout@v2
+    - uses: actions/checkout@v2
     - name: Setup
       shell: bash
       run: |
